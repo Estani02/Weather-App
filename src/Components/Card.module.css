@@ -1,0 +1,66 @@
+
+
+.contenedor{
+    width: 300px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 6px 18px 3px rgb(0 0 0 /9%);
+    margin: 25px;
+    background-color: rgba(176, 176, 153, 0.511);;
+}
+
+.contenedortitulo{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+.Linktitulo{
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+.contenedortitulo h5 {
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boton{
+    position: absolute;
+    margin-top: 5px;
+    right: 5px;
+    height: 22px;
+    width: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(245, 245, 220, 0.567);
+
+}
+
+.boton:hover{
+    border: outset;
+}
+
+.contenedorTxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.contenedorTxt img{
+    height: 130px;
+}
+
+.contenedorTemperatura{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    justify-content: center;
+    font-family: sans-serif;
+}

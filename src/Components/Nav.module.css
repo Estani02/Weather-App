@@ -1,0 +1,22 @@
+.contenedor{
+    background-color: rgba(119, 136, 153, 0.658);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    min-width: 100%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(44, 51, 58, 0.859);
+    font-family: sans-serif;
+    font-weight: 600;
+}

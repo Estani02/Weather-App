@@ -1,0 +1,25 @@
+.contenedor{
+    height: 30px;
+
+}
+
+.submit{
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    width: 70px;
+    background-color: rgba(245, 245, 220, 0.378);
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(30, 30, 2, 0.763);
+}
+
+
+
+.input{
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgba(245, 245, 220, 0.816);
+}
+
