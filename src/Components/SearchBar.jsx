@@ -9,7 +9,7 @@ export default function SearchBar({onSearch}){
         <form className={s.contenedor} onSubmit={(e)=>{
             e.preventDefault();//Cancela el evento si este es cancelable, sin detener el resto del funcionamiento del evento, es decir, puede ser llamado de nuevo
             onSearch(city);
-            setCity("")
+            setCity("");
         }}> 
             <input
             className={s.input} 
